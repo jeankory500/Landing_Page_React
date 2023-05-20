@@ -12,4 +12,17 @@ import Jumbotron from "./component/Jumbotron.jsx";
 import CardSec from "./component/cardSec.jsx";
 
 //render your react application
-ReactDOM.render(<> <Navbar/><Jumbotron/><CardSec/><Home/></>, document.querySelector("#app"));
+ReactDOM.render(<> <Navbar/><Jumbotron/>
+<div className="row mb-2">
+<CardSec/>
+</div>
+<div className= "col">
+<CardSec/>
+</div>
+<div className= "col">
+<CardSec/>
+</div>
+<div className= "col">
+<CardSec/>
+</div>
+<Home/></>, document.querySelector("#app"));
