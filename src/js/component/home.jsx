@@ -7,7 +7,6 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center">
-			<h1 className="text-center mt-5">Hello World!</h1>
 			<p>
 				Made by{" "}
 				<a href="https://github.com/jeankory500">Jeankory Valdes</a>, with
