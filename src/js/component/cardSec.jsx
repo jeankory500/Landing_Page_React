@@ -2,7 +2,7 @@ import React from "react"
 
 const CardSec = () => {
   return (
-    <div className="card-container">
+    <div className="card-container d-sm-inline-flex">
     <div class="card" style={{width:"18rem"}}>
       <img src="https://placehold.co/1000x777" class="card-img-top" alt="..." />
       <div class="card-body">

@@ -14,15 +14,17 @@ import CardSec from "./component/cardSec.jsx";
 //render your react application
 ReactDOM.render(<> <Navbar/><Jumbotron/>
 <div className="row mb-2">
-<CardSec/>
-</div>
-<div className= "col">
-<CardSec/>
-</div>
-<div className= "col">
-<CardSec/>
-</div>
-<div className= "col">
-<CardSec/>
-</div>
+	<div className="col">
+	<CardSec />,
+	</div>
+	<div className="col">
+	<CardSec />,
+	</div>
+	<div className="col">
+	<CardSec />,
+	</div>
+	<div className="col">
+	<CardSec />,
+	</div>
+</div>,
 <Home/></>, document.querySelector("#app"));

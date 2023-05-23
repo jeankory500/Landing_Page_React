@@ -2,7 +2,7 @@ import React from "react"
 
 const Navbar = () => {
 return ( 
-    <div className="Start Bootstrap">
+  <div className= "">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
@@ -18,8 +18,7 @@ return (
       </div>
     </div>
   </div>
-</nav>
-    </div>
+</nav></div>
 )
 }
 export default Navbar
